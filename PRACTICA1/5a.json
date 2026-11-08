@@ -1,0 +1,70 @@
+{
+  "encuestas": [
+    {
+      "id": 1,
+      "titulo": "Encuesta de satisfacción del servicio de atención al cliente",
+      "activa": true,
+      "preguntas": [
+        {
+          "orden": 1,
+          "texto": "¿Cómo valoras la atención recibida?",
+          "tipo": "opcion_multiple",
+          "opciones": [
+            "Excelente",
+            "Buena",
+            "Regular",
+            "Mala"
+          ]
+        },
+        {
+          "orden": 2,
+          "texto": "¿Recomendarías nuestro servicio a otras personas?",
+          "tipo": "opcion_multiple",
+          "opciones": [
+            "Sí",
+            "No",
+            "No estoy seguro"
+          ]
+        },
+        {
+          "orden": 3,
+          "texto": "Indica cualquier sugerencia de mejora.",
+          "tipo": "texto_libre"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "titulo": "Encuesta sobre preferencias tecnológicas",
+      "activa": false,
+      "preguntas": [
+        {
+          "orden": 1,
+          "texto": "¿Qué dispositivo utilizas con mayor frecuencia?",
+          "tipo": "opcion_multiple",
+          "opciones": [
+            "Ordenador",
+            "Teléfono móvil",
+            "Tableta",
+            "Otro"
+          ]
+        },
+        {
+          "orden": 2,
+          "texto": "¿Con qué frecuencia compras dispositivos tecnológicos?",
+          "tipo": "opcion_multiple",
+          "opciones": [
+            "Cada año",
+            "Cada 2 o 3 años",
+            "Más de 3 años"
+          ]
+        },
+        {
+          "orden": 3,
+          "texto": "¿Qué característica consideras más importante en un dispositivo?",
+          "tipo": "texto_libre"
+        }
+      ]
+    }
+  ]
+}
